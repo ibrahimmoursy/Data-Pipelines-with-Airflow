@@ -73,7 +73,7 @@ def final_project():
         task_id='Load_user_dim_table',
         redshift_conn_id="redshift",
         table='users',
-        truncate=False,
+        truncate=True,
         sql_stmt=SqlQueries.user_table_insert
     )
 
@@ -81,7 +81,7 @@ def final_project():
         task_id='Load_song_dim_table',
         redshift_conn_id="redshift",
         table='songs',
-        truncate=False,
+        truncate=True,
         sql_stmt=SqlQueries.song_table_insert
     )
 
@@ -89,7 +89,7 @@ def final_project():
         task_id='Load_artist_dim_table',
         redshift_conn_id="redshift",
         table='artists',
-        truncate=False,
+        truncate=True,
         sql_stmt=SqlQueries.artist_table_insert
     )
 
@@ -97,7 +97,7 @@ def final_project():
         task_id='Load_time_dim_table',
         redshift_conn_id="redshift",
         table='time',
-        truncate=False,
+        truncate=True,
         sql_stmt=SqlQueries.time_table_insert
     )
 
