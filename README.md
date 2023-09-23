@@ -1,13 +1,13 @@
 # Data-Pipelines-with-Airflow
 
-![alt text](Images/project_Dag.png)
-
 ## Contents
 
 + [Project Discription](#Project-Discription)
 + [Project Datasets](#Project-Datasets)
 + [Database](#Database)
++ [DAG](#DAG)
 + [Project Files](#Project-Files)
++ [Result](#Result)
 
 ---
 
@@ -64,4 +64,7 @@ plugins Folder
 </details> 
 
 ---
+### Result
+
+![alt text](Images/project_Dag.png)
 
