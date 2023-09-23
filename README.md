@@ -46,7 +46,7 @@ dags Folder
 </summary>
   
 + [final_project.py](dags/final_project.py) - This file contains the main DAG as well as all the imports, tasks and task dependencies.
-+ [set_connections.sh](dags/set_connections.sh) - This script sets up the connection with aws and redshift for the airflow project, by saving the aws_credentials, redshihft connections to airflow and variables to the airflow enviroment.
++ [set_connections.sh](dags/set_connections.sh) - This script sets up the connection with aws and redshift for the airflow project, by saving the aws_credentials, redshihft connections to airflow and variables to the airflow enviroment after setting it up in the Airflow UI so it won't be lost.
 
 </details>
 
