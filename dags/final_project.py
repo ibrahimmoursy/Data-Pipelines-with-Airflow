@@ -4,12 +4,12 @@ import os
 from airflow.decorators import dag,task
 from airflow.hooks.postgres_hook import PostgresHook
 from airflow.operators.dummy_operator import DummyOperator
-from final_project_operators.stage_redshift import StageToRedshiftOperator
-from final_project_operators.load_fact import LoadFactOperator
-from final_project_operators.load_dimension import LoadDimensionOperator
-from final_project_operators.data_quality import DataQualityOperator
-from final_project_operators.sql_files.sql_queries import createSchema
-from final_project_operators.sql_files.final_project_sql_statements import SqlQueries
+from stage_redshift import StageToRedshiftOperator
+from load_fact import LoadFactOperator
+from load_dimension import LoadDimensionOperator
+from data_quality import DataQualityOperator
+from sql_files.sql_queries import createSchema
+from sql_files.final_project_sql_statements import SqlQueries
 from airflow.models import Variable
 
 
